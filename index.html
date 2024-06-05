@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Input Data Assignment latest</title>
+    <link href="css/bootstrap.min.css"  rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+
+    <div class="container mt-5" id="container">
+      <div class="row justify-content-center" id="input-container">
+          <div class="col-md-6">
+              <div class="card">
+                  <div class="card-body">
+                      <form id="userForm">
+                          <div class="form-group">
+                              <label for="name">Name</label>
+                              <input type="text" class="form-control" id="name-input" placeholder="Enter name" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="phone">Email</label>
+                            <input type="email" class="form-control" id="email-input" placeholder="Enter email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Phone</label>
+                            <input type="phone" class="form-control" id="phone-input" placeholder="Enter phone" required>
+                        </div>
+        
+        <button id="add-btn">Save</button>
+
+      </form>
+    </div>
+</div>
+</div>
+</div>
+
+<table >
+        <thead >
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div id="update-container">
+        <input type="text" id="update-name-input">
+        <input type="text" id="update-email-input">
+        <input type="text" id="update-phone-input">
+        <button id="update-btn">Update</button>
+        <button id="cancel-btn">Cancel</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
